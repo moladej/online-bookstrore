@@ -1,0 +1,14 @@
+import {from} from "rxjs";
+
+export class Book 
+{
+    sku: string | undefined;
+    name:string | undefined;
+    description: string | undefined;
+    unitPrice: number | undefined;
+    imageUrl: string | undefined;
+    active: boolean | undefined;
+    unitsInStock: number | undefined;
+    createdOn: Date | undefined;
+    updatedOn!: Date;
+}
